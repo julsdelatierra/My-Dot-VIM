@@ -1,0 +1,21 @@
+# Document 
+snippet jq_doc
+	$(document).ready(function() {
+		${1}
+	});
+snippet jq_ajax_start
+	$('${1}').ajaxStart(function(){
+		${2}
+	});
+snippet jq_ajax_success
+	$('${1}').ajaxSuccess(function(){
+		${2}
+	});
+snippet jq_ajax_complete
+	$('${1}').ajaxComplete(function(){
+		${2}
+	});
+snippet jq_live
+	$('${1}').live('${2}', function(){
+		${3}
+	});
